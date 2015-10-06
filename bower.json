@@ -1,0 +1,24 @@
+{
+  "name": "avalanche: Component listing",
+  "version": "2.0.0",
+  "homepage": "https://github.com/avalanchesass/avalanche_component_listing",
+  "authors": [
+    "Markus Oberlehner"
+  ],
+  "description": "Simple listing of content",
+  "keywords": [
+    "SASS",
+    "CSS"
+  ],
+  "license": "GPL v2",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "avalanche_system_variable": "^2.0.0"
+  }
+}

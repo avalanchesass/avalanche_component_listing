@@ -1,0 +1,21 @@
+/**
+ * Listing
+ *
+ * @level X.X.
+ * @markup
+ * <div class="c-listing">
+ *   <div class="c-listing__item">
+ *     Lorem Ipsum
+ *   </div>
+ *   <div class="c-listing__item">
+ *     Lorem Ipsum
+ *   </div>
+ * </div>
+ */
+.c-listing__item {
+  + .c-listing__item {
+    margin-top: $spacing-l;
+    padding-top: $spacing-l;
+    border-top: 1px solid $cs-grey-c;
+  }
+}
